@@ -8,7 +8,7 @@ function App() {
   const [isBusinessCustomer, setIsBusinessCustomer] = useState(false);
   const [selectedOption, setSelectedOption] = useState<FinanceOption>('finance1');
   const [financeDetails, setFinanceDetails] = useState<FinanceDetails>({
-    monthlyRate: 99,
+    monthlyRate: 194, //3.5%
     downPayment: 3600,
     finalRate: 5400,
     duration: 48,
